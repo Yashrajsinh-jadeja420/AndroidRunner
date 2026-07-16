@@ -1,44 +1,26 @@
-\# Changelog
+# Changelog
 
+All notable changes to AndroidRunner will be documented here.
 
+## [0.1.0] - 2026-07-16
 
-All notable changes to this project will be documented here.
+### Added
 
+- Initial AndroidRunner CLI release
+- Android environment diagnostics
+- Android project detection
+- APK building support
+- APK installation through ADB
+- Application launching
+- Device management
+- Emulator management
+- Clean build workflow
+- Release APK workflow
 
+### Technical
 
-\## \[0.1.0] - 2026-07-16
-
-
-
-\### Added
-
-
-
-\- Initial public release of AndroidRunner CLI
-
-\- Android environment diagnostics
-
-\- Java detection
-
-\- Android SDK detection
-
-\- Build Tools detection
-
-\- ADB device detection
-
-\- Android project structure detection
-
-\- Gradle APK building
-
-\- APK installation workflow
-
-\- Application launching
-
-\- Device management
-
-\- Emulator management
-
-\- Complete build → install → launch workflow using `adr run`
-
-
-
+- Built with Python
+- Typer CLI interface
+- Rich terminal output
+- Gradle integration
+- Android SDK integration
