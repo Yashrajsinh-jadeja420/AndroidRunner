@@ -214,5 +214,36 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# Android Development
+
+# Android SDK local configuration
+local.properties
+
+# Gradle cache
+.gradle/
+
+# APK / App Bundles
+*.apk
+*.aab
+
+# Android build outputs
+app/build/
+outputs/
+
+# Emulator files
+*.img
+*.lock
+
+# Logs
+*.log
+
+
+# IDE
+.idea/
+.vscode/
+
+
+# AndroidRunner local config
+.adr/
 # Streamlit
 .streamlit/secrets.toml
