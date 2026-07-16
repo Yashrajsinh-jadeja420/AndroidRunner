@@ -1,0 +1,2 @@
+[console_scripts]
+adr = androidrunner.cli:app
