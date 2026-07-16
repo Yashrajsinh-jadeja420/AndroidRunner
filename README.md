@@ -1,5 +1,9 @@
 # AndroidRunner 🚀
 
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![Platform](https://img.shields.io/badge/platform-Windows-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 A command-line Android development assistant.
 
 AndroidRunner helps developers build, install, launch, and manage Android applications directly from the terminal.
@@ -10,15 +14,27 @@ It provides a simple CLI interface for common Android development workflows usin
 
 ## ✨ Features
 
-✅ Build Android APKs  
-✅ Install APKs to connected devices  
-✅ Launch Android applications  
+### Build & Project Management
+
 ✅ Detect Android projects  
-✅ Device management  
-✅ Emulator management  
-✅ Environment diagnostics  
+✅ Detect Gradle wrapper  
+✅ Build Android APKs  
 ✅ Clean build support  
 ✅ Release APK workflow  
+
+### Device Management
+
+✅ Install APKs to connected devices  
+✅ Launch Android applications  
+✅ Device detection  
+✅ Emulator management  
+
+### Environment Diagnostics
+
+✅ Java detection  
+✅ Android SDK detection  
+✅ Build Tools detection  
+✅ ADB verification  
 
 ---
 
@@ -36,7 +52,7 @@ cd AndroidRunner
 
 ## 🐍 Setup Python Environment
 
-### Create Virtual Environment
+Create virtual environment:
 
 ```powershell
 python -m venv .venv
@@ -113,7 +129,7 @@ Detects:
 adr build
 ```
 
-Builds a debug APK using Gradle.
+Builds the Android application using Gradle.
 
 ---
 
@@ -123,7 +139,7 @@ Builds a debug APK using Gradle.
 adr install
 ```
 
-Installs the generated APK through ADB.
+Installs the generated APK using ADB.
 
 ---
 
@@ -143,7 +159,7 @@ Launches the installed Android application.
 adr run
 ```
 
-Runs:
+Runs the complete workflow:
 
 ```
 Build APK
@@ -157,7 +173,7 @@ Launch Application
 
 # 🛠 Requirements
 
-## Required Software
+Required software:
 
 - Python 3.10+
 - Java JDK 17+
@@ -188,6 +204,7 @@ AndroidRunner/
 │       └── utils/
 │
 ├── README.md
+├── CHANGELOG.md
 ├── LICENSE
 └── pyproject.toml
 ```
@@ -220,31 +237,20 @@ Application started successfully.
 
 ---
 
-# 🗺 Roadmap
-
-## Completed
-
-✅ Android project detection  
-✅ APK building  
-✅ APK installation  
-✅ Application launching  
-✅ Device management  
-✅ Emulator management  
-✅ Environment diagnostics  
-
----
-
-
----
-
 # 🤝 Contributing
 
-Contributions, suggestions, and feature requests are welcome.
+Contributions, bug reports, and suggestions are welcome.
 
 Feel free to open an issue or submit a pull request.
 
 ---
 
-# 📄 License
+# 📄 Changelog
+
+See [CHANGELOG.md](CHANGELOG.md)
+
+---
+
+# 📜 License
 
 This project is licensed under the MIT License.
