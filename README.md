@@ -1,3 +1,9 @@
+
+<p align="center">
+  <img src="assets/banner.png" alt="AndroidRunner Banner" width="100%">
+</p>
+
+
 # AndroidRunner 🚀
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
