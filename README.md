@@ -40,5 +40,4 @@ Clone:
 
 ```bash
 
-git clone https://github.com/YOUR\_USERNAME/AndroidRunner.git
-
+ git clone https://github.com/Yashrajsinh-jadeja420/AndroidRunner.git
