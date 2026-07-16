@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="assets/banner.png" alt="AndroidRunner Banner" width="100%">
+  <img src="src/assets" alt="AndroidRunner Banner" width="100%">
 </p>
 
 
