@@ -33,7 +33,7 @@ It provides a simple CLI workflow using:
 
 
 <p align="center">
-  <video src="src/assets/AndroidRunnerTrailer.mp4" width="850" controls>
+  <video src="[src/assets/AndroidRunnerTrailer.mp4](https://github.com/user-attachments/assets/abc1cd79-0328-4980-9c60-2d554cd919ab)" width="850" controls>
     Your browser does not support the video tag.
   </video>
 </p>
