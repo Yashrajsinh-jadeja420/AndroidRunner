@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="src/assets/banner.png" alt="AndroidRunner Banner" width="100%">
 </p>
@@ -6,23 +5,46 @@
 
 # AndroidRunner 🚀
 
+<p align="center">
+
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows-success)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Release](https://img.shields.io/github/v/release/Yashrajsinh-jadeja420/AndroidRunner)
 
+</p>
 
-A command-line Android development assistant.
+
+A lightweight command-line Android development assistant.
 
 AndroidRunner helps developers build, install, launch, and manage Android applications directly from the terminal.
 
-It provides a simple CLI interface for common Android development workflows using Gradle, Android SDK tools, and ADB.
+It provides a simple CLI workflow using:
+
+- Gradle
+- Android SDK tools
+- ADB
+- Python automation
+
 
 ---
 
-## ✨ Features
+# 🎬 Demo
 
-### Build & Project Management
+
+<p align="center">
+  <video src="src/assets/AndroidRunnerTrailer.mp4" width="850" controls>
+    Your browser does not support the video tag.
+  </video>
+</p>
+
+
+---
+
+# ✨ Features
+
+
+## 🔨 Build & Project Management
 
 ✅ Detect Android projects  
 ✅ Detect Gradle wrapper  
@@ -30,25 +52,37 @@ It provides a simple CLI interface for common Android development workflows usin
 ✅ Clean build support  
 ✅ Release APK workflow  
 
-### Device Management
+
+## 📱 Device Management
 
 ✅ Install APKs to connected devices  
 ✅ Launch Android applications  
 ✅ Device detection  
 ✅ Emulator management  
 
-### Environment Diagnostics
+
+## 🩺 Environment Diagnostics
 
 ✅ Java detection  
 ✅ Android SDK detection  
 ✅ Build Tools detection  
 ✅ ADB verification  
 
+
+## 🛠 Developer Utilities
+
+✅ Logcat viewer  
+✅ Screenshot capture  
+✅ Screen recording  
+✅ Automated workflows  
+
+
 ---
 
-## 📦 Installation
+# 📦 Installation
 
-### Clone Repository
+
+## Clone Repository
 
 ```bash
 git clone https://github.com/Yashrajsinh-jadeja420/AndroidRunner.git
@@ -56,9 +90,11 @@ git clone https://github.com/Yashrajsinh-jadeja420/AndroidRunner.git
 cd AndroidRunner
 ```
 
+
 ---
 
-## 🐍 Setup Python Environment
+# 🐍 Python Setup
+
 
 Create virtual environment:
 
@@ -66,29 +102,34 @@ Create virtual environment:
 python -m venv .venv
 ```
 
-### Activate Environment
 
-#### Windows PowerShell
+Activate environment:
+
+
+### Windows PowerShell
 
 ```powershell
 .venv\Scripts\Activate.ps1
 ```
 
-#### Windows CMD
+
+### Windows CMD
 
 ```cmd
 .venv\Scripts\activate.bat
 ```
 
-#### Linux/macOS
+
+### Linux/macOS
 
 ```bash
 source .venv/bin/activate
 ```
 
+
 ---
 
-## Install AndroidRunner
+# Install AndroidRunner
 
 Install in development mode:
 
@@ -96,11 +137,13 @@ Install in development mode:
 pip install -e .
 ```
 
+
 ---
 
 # 🚀 Usage
 
-## Check Android Environment
+
+## Check Environment
 
 ```powershell
 adr doctor
@@ -108,11 +151,14 @@ adr doctor
 
 Checks:
 
-- Java
-- Android SDK
-- Build Tools
-- ADB
-- Connected devices
+```
+✓ Java
+✓ Android SDK
+✓ Build Tools
+✓ ADB
+✓ Connected Devices
+```
+
 
 ---
 
@@ -124,10 +170,13 @@ adr detect
 
 Detects:
 
-- Gradle wrapper
-- Android modules
-- Project structure
-- APK locations
+```
+✓ Gradle wrapper
+✓ Android modules
+✓ Project structure
+✓ APK locations
+```
+
 
 ---
 
@@ -137,7 +186,8 @@ Detects:
 adr build
 ```
 
-Builds the Android application using Gradle.
+Builds Android application using Gradle.
+
 
 ---
 
@@ -147,7 +197,8 @@ Builds the Android application using Gradle.
 adr install
 ```
 
-Installs the generated APK using ADB.
+Installs generated APK using ADB.
+
 
 ---
 
@@ -157,31 +208,95 @@ Installs the generated APK using ADB.
 adr launch
 ```
 
-Launches the installed Android application.
+Launches installed Android application.
+
 
 ---
 
-## Complete Workflow
+## View Logs
+
+```powershell
+adr logs
+```
+
+Starts Android Logcat monitoring.
+
+
+---
+
+## Device Management
+
+```powershell
+adr devices
+```
+
+Shows connected Android devices.
+
+
+---
+
+## Emulator Management
+
+```powershell
+adr emulator
+```
+
+Manages Android emulators.
+
+
+---
+
+# ⚡ Complete Workflow
+
 
 ```powershell
 adr run
 ```
 
-Runs the complete workflow:
+
+Runs:
 
 ```
 Build APK
-    ↓
+      ↓
 Install APK
-    ↓
+      ↓
 Launch Application
 ```
+
+
+Example:
+
+```
+$ adr run
+
+
+AndroidRunner Run
+
+
+[1/3] Building APK
+
+BUILD SUCCESSFUL
+
+
+[2/3] Installing APK
+
+APK Installed Successfully
+
+
+[3/3] Launching Application
+
+Application started successfully.
+```
+
 
 ---
 
 # 🛠 Requirements
 
+
 Required software:
+
 
 - Python 3.10+
 - Java JDK 17+
@@ -189,27 +304,35 @@ Required software:
 - Android Build Tools
 - Android Platform Tools (ADB)
 
+
 ---
 
 # 💻 Platform Support
 
+
 Currently tested:
 
+
 ✅ Windows
+
+
+More platforms planned.
+
 
 ---
 
 # 📁 Project Structure
 
+
 ```
 AndroidRunner/
 │
 ├── src/
-│   └── androidrunner/
-│       ├── commands/
-│       ├── core/
-│       ├── android/
-│       └── utils/
+│   ├── androidrunner/
+│   │
+│   ├── assets/
+│   │   ├── banner.png
+│   │   └── AndroidRunnerTrailer.mp4
 │
 ├── README.md
 ├── CHANGELOG.md
@@ -217,48 +340,31 @@ AndroidRunner/
 └── pyproject.toml
 ```
 
----
-
-# 📸 Demo
-
-Example:
-
-```
-$ adr run
-
-AndroidRunner Run
-
-1/3 Building APK
-
-BUILD SUCCESSFUL
-
-
-2/3 Installing APK
-
-APK Installed Successfully
-
-
-3/3 Launching App
-
-Application started successfully.
-```
 
 ---
 
 # 🤝 Contributing
 
+
 Contributions, bug reports, and suggestions are welcome.
 
+
 Feel free to open an issue or submit a pull request.
+
 
 ---
 
 # 📄 Changelog
 
-See [CHANGELOG.md](CHANGELOG.md)
+
+See:
+
+[CHANGELOG.md](CHANGELOG.md)
+
 
 ---
 
 # 📜 License
+
 
 This project is licensed under the MIT License.
