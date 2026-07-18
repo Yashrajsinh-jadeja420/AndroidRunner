@@ -26,9 +26,7 @@
 
 # 🎬 Demo
 
-<p align="center">
 https://github.com/user-attachments/assets/abc1cd79-0328-4980-9c60-2d554cd919ab
-</p>
 
 
 ---
