@@ -7,6 +7,7 @@
   AndroidRunner 🚀
 </h1>
 
+
 <p align="center">
   Lightweight Android development workflow automation from your terminal.
 </p>
@@ -26,6 +27,8 @@
 
 # 🎬 Demo
 
+Experience Android development automation with AndroidRunner:
+
 https://github.com/user-attachments/assets/abc1cd79-0328-4980-9c60-2d554cd919ab
 
 
@@ -35,17 +38,17 @@ https://github.com/user-attachments/assets/abc1cd79-0328-4980-9c60-2d554cd919ab
 
 AndroidRunner is a lightweight command-line Android development assistant.
 
-It simplifies common Android workflows by providing a unified CLI for:
+It provides a unified CLI workflow for common Android development tasks:
 
 - Building APKs
 - Installing applications
 - Launching apps
 - Managing devices
 - Debugging with ADB
-- Checking development environments
+- Checking Android development environments
 
 
-Built with:
+Built using:
 
 - Python
 - Gradle
@@ -75,7 +78,7 @@ Built with:
 - ✅ Emulator management
 
 
-## 🩺 Developer Diagnostics
+## 🩺 Environment Diagnostics
 
 - ✅ Java detection
 - ✅ Android SDK detection
@@ -83,7 +86,7 @@ Built with:
 - ✅ ADB health checks
 
 
-## 🛠 Developer Tools
+## 🛠 Developer Utilities
 
 - ✅ Logcat viewer
 - ✅ Log filtering
@@ -96,6 +99,20 @@ Built with:
 
 # 🚀 Installation
 
+
+## Requirements
+
+Before installing AndroidRunner, make sure you have:
+
+- Windows 10/11
+- Python 3.10+
+- Java JDK 17+
+- Android SDK
+- Android Build Tools
+- Android Platform Tools (ADB)
+
+
+---
 
 ## Clone Repository
 
@@ -117,33 +134,33 @@ python -m venv .venv
 
 Activate:
 
-### Windows PowerShell
+### PowerShell
 
 ```powershell
 .venv\Scripts\Activate.ps1
 ```
 
 
-### Windows CMD
+### Command Prompt
 
 ```cmd
 .venv\Scripts\activate.bat
 ```
 
 
-### Linux/macOS
-
-```bash
-source .venv/bin/activate
-```
-
-
 ---
 
-## Install
+## Install AndroidRunner
 
 ```powershell
 pip install -e .
+```
+
+
+After installation verify:
+
+```powershell
+adr --help
 ```
 
 
@@ -152,7 +169,7 @@ pip install -e .
 # ⚡ Quick Start
 
 
-Check your Android setup:
+Check Android environment:
 
 ```powershell
 adr doctor
@@ -174,7 +191,7 @@ Example:
 # 📱 Commands
 
 
-## Check Devices
+## Device Manager
 
 ```powershell
 adr devices
@@ -195,21 +212,21 @@ adr install
 ```
 
 
-## Launch Application
+## Launch App
 
 ```powershell
 adr launch
 ```
 
 
-## View Logs
+## Logs
 
 ```powershell
 adr logs
 ```
 
 
-## Emulator Management
+## Emulator
 
 ```powershell
 adr emulator
@@ -223,13 +240,13 @@ adr run
 ```
 
 
-Runs:
+Workflow:
 
 ```
 Build APK
-      ↓
+     ↓
 Install APK
-      ↓
+     ↓
 Launch Application
 ```
 
@@ -261,32 +278,12 @@ Application started successfully.
 
 ---
 
-# 🛠 Requirements
-
-
-Required:
-
-- Python 3.10+
-- Java JDK 17+
-- Android SDK
-- Android Build Tools
-- Android Platform Tools (ADB)
-
-
----
-
 # 💻 Platform Support
 
 
-Currently tested:
+Currently supported and tested:
 
 ✅ Windows
-
-
-Planned:
-
-- Linux
-- macOS
 
 
 ---
@@ -304,7 +301,7 @@ AndroidRunner/
 │       ├── android/
 │       └── utils/
 │
-├── assets/
+├── src/assets/
 │   ├── banner.png
 │   └── AndroidRunnerTrailer.mp4
 │
